@@ -18,8 +18,11 @@ public class GoogleMobileSitemapUrl extends WebSitemapUrl {
 		public Options(String url) throws MalformedURLException {
 			this(new URL(url));
 		}
-		
-		/** Specifies the url */
+
+		/**
+		 * Specifies the url
+		 * @param url
+		 */
 		public Options(URL url) {
 			super(url, GoogleMobileSitemapUrl.class);
 		}

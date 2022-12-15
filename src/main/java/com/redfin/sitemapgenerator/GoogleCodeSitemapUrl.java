@@ -18,7 +18,7 @@ public class GoogleCodeSitemapUrl extends WebSitemapUrl {
 	 */
 	public enum FileType { 
 		/** A special value meaning that the URL is a compressed archive containing code.
-		 * @see @see <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=75259">Supported archive suffixes</a>
+		 * @see <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=75259">Supported archive suffixes</a>
 		 */
 		ARCHIVE("Archive"),
 		ADA("Ada"),
